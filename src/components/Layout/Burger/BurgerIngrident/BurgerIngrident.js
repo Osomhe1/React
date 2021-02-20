@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
-import classes from './burgerIngrident.css';
+import classes from './BurgerIngrident.css'; // watch your spellings you can't spell with capital letter and import as small letter
 
 
 class BurgerIngrident extends Component{
@@ -48,9 +48,10 @@ class BurgerIngrident extends Component{
 
 }
 
-BurgerIngrident.propTypes = {
-    type: this.PropTypes.string.isRequired
-}
+// i don't know what you're doing here, i guess you're following a tutorial
+// BurgerIngrident.propTypes = {
+//     type: this.PropTypes.string.isRequired
+// }
 
 
 export default BurgerIngrident;

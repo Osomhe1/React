@@ -2,7 +2,7 @@ import React from 'react';
 import classes from './Burger.css';
 import BurgerIngrident from './BurgerIngrident/BurgerIngrident';
 
-const burger = (props) => {
+const Burger = (props) => {
     return(
         <div className={classes.Burger}>
             <BurgerIngrident type='bread-top' />
@@ -15,4 +15,4 @@ const burger = (props) => {
     );
 };
 
-export default burger
+export default Burger
